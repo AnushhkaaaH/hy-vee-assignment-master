@@ -63,15 +63,15 @@ export default function Home() {
         }
       } else if (newAge > 25 && newAge <= 50) {
         if (newGender === 'female') {
-          return 'midW.jpg';
+          return 'midW1.jpg';
         } else if (newGender === 'male') {
-          return 'midM.jpg';
+          return 'midM1.jpg';
         }
       } else if (newAge > 50 && newAge <= 100) {
         if (newGender === 'female') {
-          return 'oldW.jpg';
+          return 'oldW1.jpg';
         } else if (newGender === 'male') {
-          return 'oldM.jpg';
+          return 'oldM1.jpg';
         }
       }
     }
@@ -80,7 +80,7 @@ export default function Home() {
 
   return (
     <div className="relative min-h-screen flex items-center justify-center p-4" style={{ backgroundImage: 'url(25974.jpg)', backgroundSize: 'cover', backgroundPosition: 'center' }}>
-      <div className="absolute inset-0 bg-black opacity-50 filter blur-md"></div>
+      <div className="absolute inset-0 bg-black opacity-65 filter blur-md"></div>
       <div className="relative w-full max-w-md">
         {showForm ? (
           <div className="bg-white bg-opacity-65 p-8 rounded-lg shadow-md mb-4">
@@ -96,7 +96,7 @@ export default function Home() {
                 />
               </label>
               <div className="flex space-x-2 mt-4">
-                <button type="submit" className="flex-1 bg-blue-500 text-white py-2 px-4 rounded-md">
+                <button type="submit" className="flex-1 bg-red-800 text-white py-2 px-4 rounded-md">
                   Submit
                 </button>
               </div>
@@ -142,7 +142,7 @@ export default function Home() {
               <button
                 type="button"
                 onClick={clearForm}
-                className="flex-1 bg-red-500 text-white py-2 px-4 rounded-md"
+                className="flex-1 bg-amber-500 text-white py-2 px-4 rounded-md"
               >
                 Clear
               </button>
