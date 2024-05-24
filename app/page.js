@@ -92,7 +92,7 @@ export default function Home() {
                   type="text"
                   value={name}
                   onChange={(e) => setName(e.target.value)}
-                  className="w-full border border-gray-300 p-2 rounded-md focus:outline-none focus:ring focus:ring-blue-400"
+                  className="w-full border bg-slate-400 border-gray-300 p-2 rounded-md focus:outline-none focus:ring focus:ring-blue-400"
                 />
               </label>
               <div className="flex space-x-2 mt-4">
