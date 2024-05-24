@@ -86,7 +86,7 @@ export default function Home() {
           <div className="bg-white bg-opacity-65 p-8 rounded-lg shadow-md mb-4">
             <h1 className="text-2xl font-semibold mb-4 ml-24">Identity Identifier</h1>
             <form onSubmit={handleSubmit} className="mb-4 relative">
-              <label className="block text-white-600 mb-2">
+              <label className="block text-black-600 mb-2">
                 Enter a name:
                 <input
                   type="text"
